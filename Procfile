@@ -1,1 +1,1 @@
-"web: python main.py" 
+web: waitress-serve $PORT main:app 
